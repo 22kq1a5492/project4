@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>registration form</title>
+        </head>
+        <style>
+            @media screen and (min-width:320px){}                                               /*  Smart phone      */ 
+    @media Screen and (min-width:768px) and (max-width:1024px){}   
+    @media Screen and(min-width:1224px){}
+    @media Screen and(min-width:1824px){}
+            #regform{
+            max-width:300px;
+            margin:auto;
+            padding:10px;
+            background-color:none;
+            border-radius:10px;
+            border:20px black;
+           box-sizing: border-box;
+           box-shadow: aliceblue;
+           backdrop-filter:blur(10px);
+        
+        }
+        .body{
+            background-image:url("v6.jpeg");
+        }
+        label{
+            display:block;
+            margin-bottom:10px;
+            color:red;
+        }
+        input[type="submit"]{
+        color:aqua;
+        }
+            body{
+           background-image:url("head.jpeg");
+           background-size: cover;
+           color:red;
+           font-family:Georgia, 'Times New Roman', Times, serif}
+           h1{
+            color:coral;
+           }
+        input [type="submit"]{
+            color:aqua
+        }
+        </style>
+    <body>
+        <center>
+    <form  id="reg form" action="loginpage.html">
+    <h1>REGISTRATION FORM</h1>
+    <label for firstname>FirstName:</label>
+    <input type="text" name="uname" placeholder="uname"><br><br>
+    <label for Middlename>Middle Name:</label>
+    <input type="text" name="mname" placeholder="mname"><br><br>
+    <label for Lastname>LastName:</label>
+    <input type="text" name="lname"placeholder="lname"><br><br>
+    <label for Mobile Number>Mobile Number:</label>
+    <input type="number"name="name" placeholder="number"><br><br>
+    <label for Age>Age:</label>
+    <input type="text" name="name"placeholder="Age"><br><br>
+    <label for Gender>Gender:</label>
+    <input type="radio" name="gender">male<br>
+                  <input type="radio" name="gender">female<br>
+                  <input type="radio" name="gender">other<br><br>
+    <label for firstname>Address:</label>
+    <textarea name="mytest" cols="0" rows="0"required>
+                    text area.... 
+                  </textarea><br><br>            
+                 <input type="submit" value="register">
+                </center>
+ </form>
+ </body>
+</html>
